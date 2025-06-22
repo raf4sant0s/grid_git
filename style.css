@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .coitainer-main-cross-axis-row {
     display: grid;
@@ -12,3 +8,13 @@
                           ;
 }
 
+header {
+
+    margin: 0%;
+    padding: 0%;
+}
+.lista { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
