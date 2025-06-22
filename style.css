@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coitainer-main-cross-axis-row {
+    display: grid;
+    grid-template-areas: 'header header header header'
+                          'aside main main main'
+                          'footer footer footer footer'
+                          ;
+}
+
