@@ -56,7 +56,7 @@
 }
 .navbar a:hover{
     color: #000000;
-    border-radius: 2vmin;
+    border-radius: 1vmin;
 }
 
 
@@ -80,9 +80,6 @@
     padding: 0; 
     cursor: pointer;
     margin-left: 2vmin;
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (20vw, 1fr));
-    gap: 1rem;*/
 }
 .item2::before {
     content: ""; 
@@ -155,16 +152,17 @@
 }
 
 
+
 .item4 {
     grid-area: main;
     position: relative;
     height: 150vh;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
     margin-left: 2vmax;
     max-height: auto;
     min-height: 250px; 
     margin-top: 20px;
-    margin-right: 2vmin;
+    margin-right: 5vmin;
 }
 .item4 h1 {
     font-family: Verdana, sans-serif;
